@@ -25,3 +25,12 @@ html {
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 62.5%;
 }
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: rgb(101,101,231);
+    background: linear-gradient(360deg, rgba(101,101,231,1) 0%, rgba(175,103,233,1) 50%); */
+}
