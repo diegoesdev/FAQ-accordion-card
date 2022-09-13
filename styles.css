@@ -1,0 +1,27 @@
+:root {
+    /* Colors */
+        /* Text */
+    --very-dark-blue: hsl(238, 29%, 16%);
+    --soft-red: hsl(14, 88%, 65%);
+    --very-dark-grayish: hsl(237, 12%, 33%);
+    --dark-grayish: hsl(240, 6%, 50%);
+    --light-grayish: hsl(240, 5%, 91%);
+
+    /* Typography */
+        /* Font size */
+    --paragraph: 1.2rem;
+        /* Font weight */
+    --regular: 400;
+    --bold: 700;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 62.5%;
+}
