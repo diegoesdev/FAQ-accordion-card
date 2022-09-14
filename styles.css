@@ -31,6 +31,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background: rgb(101,101,231);
-    background: linear-gradient(360deg, rgba(101,101,231,1) 0%, rgba(175,103,233,1) 50%); */
+    background: linear-gradient(360deg, rgba(101,101,231,1) 0%, rgba(175,103,233,1) 50%);
+}
+
+.faq {
+    background-color: var(--light-grayish);
+    min-width: 250px;
+    max-width: 375px;
+    border-radius: 20px;
+    padding: 20px;
 }
