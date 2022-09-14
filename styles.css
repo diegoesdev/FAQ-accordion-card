@@ -32,6 +32,7 @@ body {
     align-items: center;
     justify-content: center;
     background: linear-gradient(360deg, rgba(101,101,231,1) 0%, rgba(175,103,233,1) 50%);
+    background-repeat: no-repeat;
 }
 
 .faq {
@@ -40,4 +41,39 @@ body {
     max-width: 375px;
     border-radius: 20px;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq__images {
+    /* position: relative; */
+}
+
+.faq__images--foreground {
+    background-image: url(./faq-accordion-card-main/images/illustration-woman-online-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    /* position: relative; */
+    /* top: -122px; */
+    width: 180px;
+    height: 180px;
+}
+
+.faq__images--background {
+    background-image: url(./faq-accordion-card-main/images/bg-pattern-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    /* position: fixed; */
+    /* top: -290px; */
+    width: 180px;
+    height: 180px;
+}
+
+.faq__title {
+    font-size: 3rem;
+    text-align: center;
 }
