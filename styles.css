@@ -76,4 +76,21 @@ body {
 .faq__title {
     font-size: 3rem;
     text-align: center;
+    color: var(--very-dark-blue);
+}
+
+.faq__content--question {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.faq__content--question p {
+    font-size: 1.4rem;
+    color: var(--very-dark-grayish);
+    padding-right: 30px;
+}
+.faq__content--question img {
+    width: 10px;
+    height: 7px;
+    
 }
