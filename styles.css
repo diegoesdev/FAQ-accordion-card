@@ -47,19 +47,14 @@ body {
     align-items: center;
 }
 
-.faq__images {
-    /* position: relative; */
-}
-
 .faq__images--foreground {
     background-image: url(./faq-accordion-card-main/images/illustration-woman-online-mobile.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    /* position: relative; */
-    /* top: -122px; */
-    width: 180px;
-    height: 180px;
+    position: relative;
+    width: 250px;
+    height: 250px;
 }
 
 .faq__images--background {
@@ -67,10 +62,10 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    /* position: fixed; */
-    /* top: -290px; */
-    width: 180px;
-    height: 180px;
+    position: relative;
+    top: 260px;
+    width: 250px;
+    height: 250px;
 }
 
 .faq__title {
