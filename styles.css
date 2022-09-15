@@ -39,12 +39,19 @@ body {
     background-color: var(--light-grayish);
     min-width: 250px;
     max-width: 375px;
+    max-height: 700px;
     border-radius: 20px;
     padding: 50px 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+}
+
+.faq__images {
+    position: relative;
+    top: 25px;
 }
 
 .faq__images--foreground {
@@ -63,7 +70,7 @@ body {
     background-position: center;
     background-size: contain;
     position: relative;
-    top: 260px;
+    top: -180px;
     width: 250px;
     height: 250px;
 }
@@ -72,6 +79,7 @@ body {
     font-size: 3rem;
     text-align: center;
     color: var(--very-dark-blue);
+    padding-top: 50px;
 }
 
 .faq__content--questions {
