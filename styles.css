@@ -50,8 +50,8 @@ body {
 }
 
 .faq__images {
-    position: relative;
-    top: 25px;
+    position: absolute;
+    top: -40px;
 }
 
 .faq__images--foreground {
@@ -59,7 +59,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    position: relative;
+    /* position: absolute; */
     width: 250px;
     height: 250px;
 }
@@ -79,7 +79,7 @@ body {
     font-size: 3rem;
     text-align: center;
     color: var(--very-dark-blue);
-    padding-top: 50px;
+    padding-top: 90px;
 }
 
 .faq__content--questions {
