@@ -24,85 +24,15 @@
 html {
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 62.5%;
-}
-
-body {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background: linear-gradient(360deg, rgba(101,101,231,1) 0%, rgba(175,103,233,1) 50%);
     background-repeat: no-repeat;
 }
 
-.faq {
-    background-color: var(--light-grayish);
-    min-width: 250px;
-    max-width: 375px;
-    max-height: 700px;
-    border-radius: 20px;
-    padding: 50px 25px;
+body {
+    width: 90%;
+    margin: auto;
     display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-.faq__images {
-    position: absolute;
-    top: -40px;
-}
-
-.faq__images--foreground {
-    background-image: url(./faq-accordion-card-main/images/illustration-woman-online-mobile.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    /* position: absolute; */
-    width: 250px;
-    height: 250px;
-}
-
-.faq__images--background {
-    background-image: url(./faq-accordion-card-main/images/bg-pattern-mobile.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    position: relative;
-    top: -180px;
-    width: 250px;
-    height: 250px;
-}
-
-.faq__title {
-    font-size: 3rem;
-    text-align: center;
-    color: var(--very-dark-blue);
-    padding-top: 90px;
-}
-
-.faq__content--questions {
-    border-bottom: 1px solid var(--dark-grayish);
-}
-
-.faq__content--questions #question {
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.faq__content--questions #question p {
-    font-size: 1.4rem;
-    font-weight: var(--regular);
-    color: var(--very-dark-grayish);
-    padding-right: 30px;
-}
-.faq__content--questions #question img {
-    width: 10px;
-    height: 7px;
-}
-.faq__content--questions #question p,
-.faq__content--questions #question img:hover {
-    cursor: pointer;
+    
 }
