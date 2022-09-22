@@ -9,7 +9,7 @@
 
     /* Typography */
         /* Font size */
-    --paragraph: 1.2rem;
+    --paragraph: 1.3rem;
         /* Font weight */
     --regular: 400;
     --bold: 700;
@@ -32,7 +32,6 @@ body {
     width: 90%;
     height: 100vh;
     margin: auto;
-    margin-top: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,14 +40,17 @@ body {
 
 .card {
     background-color: var(--light-grayish);
-    padding: 9rem 1rem 2rem;
+    padding: 12rem 2rem 5rem;
     border-radius: 30px;
-    width: 90%;
     width: 340px;
 }
 
+.card__button {
+    padding: 1rem 0;
+}
+
 .illustration {
-    margin-bottom: -7rem;
+    margin-bottom: -10rem;
     z-index: 1;
 }
 
@@ -61,6 +63,7 @@ body {
 
 h1 {
     text-align: center;
+    font-size: 3rem;
     font-weight: var(--bold);
     margin-bottom: .5rem;
 }
@@ -93,8 +96,8 @@ h2 {
 }
 
 p {
-    font-size: 1rem;
-    padding: 0rem 1.5rem 1rem 0rem;
+    font-size: var(--paragraph);
+    padding: 0rem 2.5rem 1rem 0rem;
     color: var(--dark-grayish);
     line-height: 1.4rem;
     display: none;
@@ -157,5 +160,6 @@ p {
     }
     h1 {
         text-align: start;
+        margin-bottom: 1.5rem;
     }
 }
