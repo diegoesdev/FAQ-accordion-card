@@ -30,8 +30,9 @@ html {
 
 body {
     width: 90%;
-    /* height: 100vh; */
+    height: 100vh;
     margin: auto;
+    margin-top: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -78,6 +79,7 @@ button {
 
 li {
     list-style: none;
+    border-bottom: 1px solid var(--dark-grayish);
 }
 
 h2 {
@@ -90,5 +92,18 @@ h2 {
 p {
     font-size: 1rem;
     padding: 0rem 1.5rem 1rem 0rem;
+    color: var(--dark-grayish);
+    line-height: 1.4rem;
+    display: none;
 }
-/*  */
+
+/* ACTIVE STATE */
+.active p {
+    display: block;
+}
+.active h2 {
+    font-weight: var(--bold);
+}
+.active img {
+    transform: rotate(180deg);
+}
