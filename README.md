@@ -29,7 +29,7 @@ La vista móvil queda de a siguiente manera:
 
 Mientras que si el usuario usa una tableta o computadora, la vista se amplía:
 
-¡[](./screenshots/desktop-view.png)
+![](./screenshots/desktop-view.png)
 
 ### Links
 
